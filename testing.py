@@ -10,6 +10,7 @@ for score in student_scores:
 
 average_score = round(total_score / total_num_of_score)
 
+
 if (average_score < 50):
   print("You do not qualify for admission")
 elif (average_score >= 50) and (average_score <= 54):
